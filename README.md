@@ -31,4 +31,32 @@ In the program please note wherever you find ' your mail id' please replace by y
 please note IT IS NOT YOUR GMAIL PASSWORD , it is the password obtained after allowing access to third party applications in your gamil settings and after completing the two step verification. 
 Inorder to maintain security and privacy in our model the mail which contains the image will be two secret codes which are random ( which means each time a mail is sent the secret codes will be different and random ) one is to open the door and the other is  to deny acces for the person. The owner has to reply the same code inorder to do that particular function.
 
+Pre requisites
+
+Software
+
+1)python
+  modules under python
+  a) cv2
+  b) face_recognition
+  c) numpy
+  d) serial
+  e) time
+  f) smtplib
+  g) email
+  h) easyimap
+  i) random
+  j) string
+
+2) arduino ide 1.8.9
+
+Hardware
+
+1) Arduino uno
+2) Servo motor
+3) lcd display
+4) Bread board
+5) connecting wires
+6) webcam 
+
 
