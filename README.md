@@ -16,7 +16,7 @@ The haar cascade xml file has been provided above which is a pre built file whic
 The face detection and recognition using haar cascade classifier algorithm is done with the help of open cv in python
 
 We first run the program to find the feature vectors of a few images of the permanent residents of the house
-and their feature vectors are stored into a .npy file. More the number of images more accurate the model will become.
+and their feature vectors are stored into a .npy file,this is done by the program named initial_code.py. More the number of images more accurate the model will become.
 Each time their is a visitor at the door the face is detetcted and its feature vectors are compared with the preobtained fearure vectors and if it returns tru the door will open automatically . Else the image of the person will be sent to the owner of the house to seek permission to open or not. If the owner approves the door will open automatically else if he denies an appropriate meggase will be displayed on the lcd display placed outside the door.
 
 Lock opening system
